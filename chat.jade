@@ -1,0 +1,11 @@
+div(style="height:100%;width:500px;position:absolute;right:0" ) 
+    div.chat-container(style="width:500px;height:500px")    
+        chat(messages="vm.messages" 
+            username="vm.username" 
+            input-placeholder-text="..." 
+            submit-button-text=">"
+            title="Chatbox" 
+            theme="material" 
+            submit-function="vm.sendMessage" 
+            visible="true"                    
+            expand-on-new="true")
