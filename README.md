@@ -8,6 +8,6 @@ Super simple chat. Uses socket.io to communicate with the server.
 - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
 - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
 
-- add code from ./socketio.js to server
+- add code from `./socketio.js` to your server
 
 - add `include chat` somewhere in your main jade or simply paste code straight into html
