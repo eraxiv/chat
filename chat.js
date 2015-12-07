@@ -5,7 +5,7 @@
     .directive('chat', ['$timeout', SimpleChat])
 
     .factory('socket', function() {
-        var socket = io.connect('http://tipstr.com.au:7700/'); //setup socket
+        var socket = io.connect('http://[socket.io connection]/'); //setup socket
         return socket;
     });
       
