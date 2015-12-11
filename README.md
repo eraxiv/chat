@@ -10,5 +10,8 @@ Super simple chat. Uses socket.io to communicate with the server.
 - add code from `./socketio.js` to your server
 - add `include chat` somewhere in your main jade 
 
-Add chat to your js: ```javascript var app = angular.module("app", ['chat']); ```
+Add chat to your js: 
+```javascript 
+var app = angular.module("app", ['chat']); 
+```
 
